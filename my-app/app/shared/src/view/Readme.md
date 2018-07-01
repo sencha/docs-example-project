@@ -1,0 +1,1 @@
+# MyApp shared/app
