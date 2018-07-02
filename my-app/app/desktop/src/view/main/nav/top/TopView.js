@@ -1,3 +1,6 @@
+/**
+ * The TopView.
+ */
 Ext.define('MyApp.view.main.nav.top.TopView', {
   extend: 'Ext.container.Container',
   xtype: 'topview',

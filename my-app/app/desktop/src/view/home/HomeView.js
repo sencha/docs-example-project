@@ -1,3 +1,6 @@
+/**
+ * This is the HomeView class.
+ */
 Ext.define('MyApp.view.home.HomeView',{
 	xtype: 'homeview',
 	cls: 'homeview',

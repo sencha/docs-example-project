@@ -1,3 +1,6 @@
+/**
+ * The personnel model.
+ */
 Ext.define('MyApp.view.personnel.PersonnelViewModel', {
 	extend: 'Ext.app.ViewModel',
 	alias: 'viewmodel.personnelviewmodel',

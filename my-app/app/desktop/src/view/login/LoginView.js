@@ -1,3 +1,6 @@
+/**
+ * The LoginView for the application.
+ */
 Ext.define('MyApp.view.login.LoginView',{
 	extend: 'Ext.Container',
 	xtype: 'loginview',

@@ -1,3 +1,6 @@
+/**
+ * The MenuView.
+ */
 Ext.define('MyApp.view.nav.menu.MenuView', {
 	extend: 'Ext.list.Tree',
 	requires: [

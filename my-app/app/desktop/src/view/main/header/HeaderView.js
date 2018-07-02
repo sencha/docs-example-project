@@ -1,3 +1,6 @@
+/**
+ * The HeaderView.
+ */
 Ext.define('MyApp.view.main.header.HeaderView', {
   extend: 'Ext.toolbar.Toolbar',
   height: 50,

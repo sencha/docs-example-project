@@ -1,3 +1,6 @@
+/**
+ * The personnel controller.
+ */
 Ext.define('MyApp.view.personnel.PersonnelViewController', {
 	extend: 'Ext.app.ViewController',
 	alias: 'controller.personnelviewcontroller',

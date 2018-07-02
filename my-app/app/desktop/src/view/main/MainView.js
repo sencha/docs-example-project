@@ -1,3 +1,6 @@
+/**
+ * The MainView.
+ */
 Ext.define('MyApp.view.main.MainView', {
   extend: 'Ext.Container',
   xtype: 'mainview',

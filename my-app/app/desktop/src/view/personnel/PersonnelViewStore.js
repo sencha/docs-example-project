@@ -1,3 +1,6 @@
+/**
+ * The personnel view store.
+ */
 Ext.define('MyApp.view.personnel.PersonnelViewStore', {
 	extend: 'Ext.data.Store',
 	alias: 'store.personnelviewstore',

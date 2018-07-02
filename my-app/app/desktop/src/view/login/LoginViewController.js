@@ -1,7 +1,13 @@
+/**
+ * The LogingViewController.
+ */
 Ext.define('MyApp.view.login.LoginViewController', {
 	extend: 'Ext.app.ViewController',
 	alias: 'controller.loginviewcontroller',
 
+	/**
+	 * OnLogin do this.
+	 */
 	onLogin: function() {
 		var form = this.lookup('form')
 		if (form.validate()) {
@@ -27,6 +33,9 @@ Ext.define('MyApp.view.login.LoginViewController', {
 		}
 	},
 
+	/**
+	 * Get the login data. 
+	 */
 	getLoginData: function (user, pass) {
 		return new Ext.Promise(function (resolve, reject) {
 			try {

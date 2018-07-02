@@ -1,3 +1,6 @@
+/**
+ * The PersonalView.
+ */
 Ext.define('MyApp.view.personnel.PersonnelView',{
 	extend: 'Ext.grid.Panel',
 	xtype: 'personnelview',

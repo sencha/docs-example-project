@@ -9,12 +9,12 @@
 //});
 
 /**
-NavView is a component that shows a list of menu options, and the view xtype for each. It is
-twoWayBindable on "selection".
-NavView is actually composed of several components: a header, a tree list, and a footer. But we're
-hiding that from the rest of the app -- we only want code to be aware of NavView, without caring
-about the underlying components within it. We could write the rest of the app to select and listen
-directly to the tree list, but in a complex app that kind of poor scoping can lead to problems.
+* NavView is a component that shows a list of menu options, and the view xtype for each. It is
+* twoWayBindable on "selection".
+* NavView is actually composed of several components: a header, a tree list, and a footer. But we're
+* hiding that from the rest of the app -- we only want code to be aware of NavView, without caring
+* about the underlying components within it. We could write the rest of the app to select and listen
+* directly to the tree list, but in a complex app that kind of poor scoping can lead to problems.
 */
 Ext.define("MyApp.view.main.nav.NavView", {
 	extend: "Ext.Panel",

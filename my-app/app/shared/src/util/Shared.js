@@ -1,3 +1,6 @@
+/**
+ * The shared utils.
+ */
 Ext.define('MyApp.util.Shared', {
 	alternateClassName: ['Shared'],
 	singleton: true,

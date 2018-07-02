@@ -1,3 +1,6 @@
+/**
+ * The FooterView.
+ */
 Ext.define('MyApp.view.main.footer.FooterView', {
 	extend: 'Ext.panel.Panel',
 	xtype: 'footerview',

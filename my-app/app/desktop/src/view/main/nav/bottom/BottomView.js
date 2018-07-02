@@ -1,3 +1,6 @@
+/**
+ * The BottomView.
+ */
 Ext.define('MyApp.view.main.nav.bottom.BottomView', {
 	extend: 'Ext.Toolbar',
 	xtype: 'bottomview',

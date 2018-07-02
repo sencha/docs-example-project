@@ -1,3 +1,6 @@
+/**
+ * The NavViewController.
+ */
 Ext.define("MyApp.view.main.nav.NavViewController", {
   extend: "Ext.app.ViewController",
   alias: "controller.navviewcontroller",
