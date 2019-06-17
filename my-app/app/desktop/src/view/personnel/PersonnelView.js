@@ -1,12 +1,17 @@
 /**
- * The PersonalView.
- * @example
- * ```
- * console.log('test1');
- * ```
+ * Testing docs. 
  *
- * 	@example
- * 	console.log('test2');
+ * # Simple Toast
+ *
+ *      @example
+ *      // Toast will close in 1000 milliseconds (default)
+ *      Ext.toast('Hello Sencha!');
+ *
+ * # Toast with Timeout
+ *
+ *      @example
+ *      // Toast will close in 5000 milliseconds
+ *      Ext.toast('Hello Sencha!', 5000);
  *
  *
  *
