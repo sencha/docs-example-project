@@ -13,7 +13,11 @@
  *      // Toast will close in 5000 milliseconds
  *      Ext.toast('Hello Sencha!', 5000);
  *
- *
+ * # Test 3
+ * @example
+ * ```
+ * Ext.toast('Hello Sencha!', 5000);
+ * ```
  *
  */
 Ext.define('MyApp.view.personnel.PersonnelView',{
