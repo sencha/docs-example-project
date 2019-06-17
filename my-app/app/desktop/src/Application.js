@@ -1,5 +1,16 @@
 /**
  * The application class.
+ *
+ * @example({tab:1,packages:['ext-webcomponents']})
+ * ```html
+ * <custom-tag onclick='testIt('works');'>click on me</custom-tag>
+ * ```
+ * 
+ * ```javascript
+ * function testIt(message) {
+ *   alert(`example ${message}`); 	
+ * }
+ * ```
  */
 Ext.define('MyApp.Application', {
 	extend: 'Ext.app.Application',
