@@ -1,11 +1,12 @@
 /**
  * The application class.
  *
- * @example({tab:1,packages:['ext-webcomponents']})
+ * @example({tab:1})
  * ```html
  * <custom-tag onclick='testIt('works');'>click on me</custom-tag>
  * ```
  * 
+ * @example({tab:2, packages:['ext-web-components']})
  * ```javascript
  * function testIt(message) {
  *   alert(`example ${message}`); 	
