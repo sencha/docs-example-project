@@ -1,5 +1,15 @@
 /**
  * The PersonalView.
+ * @example
+ * ```
+ * console.log('test1');
+ * ```
+ *
+ * 	@example
+ * 	console.log('test2');
+ *
+ *
+ *
  */
 Ext.define('MyApp.view.personnel.PersonnelView',{
 	extend: 'Ext.grid.Panel',
