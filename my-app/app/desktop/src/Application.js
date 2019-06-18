@@ -3,7 +3,7 @@
  *
  *
  * ```html @example({tab:1})
- * <custom-tag onclick='testIt('works');'>click on me</custom-tag>
+ * <custom-tag class='example' onclick='testIt('works');'>click on me</custom-tag>
  * ```
  *
  * ```javascript @example({tab:2, packages:['ext-web-components']})
@@ -11,6 +11,14 @@
  *   alert(`example ${message}`); 	
  * }
  * ```
+ *
+ * ```css 
+ * @example({tab:2, packages:['ext-web-components']})
+ * .example { 
+ *   border: 1px solid red; 
+ * }
+ * ```
+ *
  */
 Ext.define('MyApp.Application', {
 	extend: 'Ext.app.Application',
