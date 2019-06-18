@@ -23,7 +23,7 @@
  * }
  * ```
  *
- * JS2
+ * 
  * 	@example({tab:4, packages:['ext-web-components']})
  *      console.log('works');
  */
