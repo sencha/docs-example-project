@@ -1,8 +1,8 @@
 /**
  * The application class.
  *
- * @example({tab:1})
- * ```html
+ *
+ * ```html @example({tab:1})
  * <custom-tag onclick='testIt('works');'>click on me</custom-tag>
  * ```
  * 
