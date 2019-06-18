@@ -1,24 +1,31 @@
 /**
  * The application class.
  *
- *
- * ```html @example({tab:1})
+ * HTML
+ * ```html 
+ * @example({tab:1})
  * <custom-tag class='example' onclick='testIt('works');'>click on me</custom-tag>
  * ```
  *
- * ```javascript @example({tab:2, packages:['ext-web-components']})
+ * JS
+ * ```javascript 
+ * @example({tab:2, packages:['ext-web-components']})
  * function testIt(message) {
  *   alert(`example ${message}`); 	
  * }
  * ```
  *
+ * CSS
  * ```css 
- * @example({tab:2, packages:['ext-web-components']})
+ * @example({tab:3, packages:['ext-web-components']})
  * .example { 
  *   border: 1px solid red; 
  * }
  * ```
  *
+ * JS2
+ * 	@example({tab:4, packages:['ext-web-components']})
+ *      console.log('works');
  */
 Ext.define('MyApp.Application', {
 	extend: 'Ext.app.Application',
