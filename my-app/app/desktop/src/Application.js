@@ -5,9 +5,8 @@
  * ```html @example({tab:1})
  * <custom-tag onclick='testIt('works');'>click on me</custom-tag>
  * ```
- * 
- * @example({tab:2, packages:['ext-web-components']})
- * ```javascript
+ *
+ * ```javascript @example({tab:2, packages:['ext-web-components']})
  * function testIt(message) {
  *   alert(`example ${message}`); 	
  * }
