@@ -1,13 +1,12 @@
 /**
  * The application class.
  *
- * HTML
+ *
  * ```html 
  * @example({tab:1})
  * <custom-tag class='example' onclick='testIt('works');'>click on me</custom-tag>
  * ```
  *
- * JS
  * ```javascript 
  * @example({tab:2, packages:['ext-web-components']})
  * function testIt(message) {
@@ -15,7 +14,6 @@
  * }
  * ```
  *
- * CSS
  * ```css 
  * @example({tab:3, packages:['ext-web-components']})
  * .example { 
@@ -23,13 +21,11 @@
  * }
  * ```
  *
- * JS2
- * 
+ *  
  * 	@example({tab:4, packages:['ext-web-components']})
  *      console.log('works');
  *
- 
- * JS
+ *
  * ```javascript 
  * @example({tab:1, packages:['ext-web-components']})
  * function testItAgain(message) {
