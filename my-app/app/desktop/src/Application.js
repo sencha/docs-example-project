@@ -1,7 +1,7 @@
 /**
  * The application class.
  *
- *
+ * Example 1 - This is the first example. 
  * ```html 
  * @example({tab:1})
  * <custom-tag class='example' onclick='testIt('works');'>click on me</custom-tag>
@@ -25,7 +25,7 @@
  * 	@example({tab:4, packages:['ext-web-components']})
  *      console.log('works');
  *
- *
+ * Example 2 - This is another example. 
  * ```javascript 
  * @example({tab:1, packages:['ext-web-components']})
  * function testItAgain(message) {
