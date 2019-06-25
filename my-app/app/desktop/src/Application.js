@@ -41,6 +41,12 @@
  * @example({tab:2})
  * <custom-tag class='example' onclick='anotherTestIt('works');'>click on me</custom-tag>
  * ```
+ *
+ * Simple example
+ * ```javascript
+ * @example
+ * console.log("simple example");
+ * ```
  */
 Ext.define('MyApp.Application', {
 	extend: 'Ext.app.Application',
