@@ -1,10 +1,10 @@
 /**
  * This is the HomeView class.
  * 
- * ```javascript
- * @example
- * console.log("example works");
- * ```
+ * 
+ * 	@example
+ * 	console.log("example works");
+ * 
  *
  */
 Ext.define('MyApp.view.home.HomeView',{
