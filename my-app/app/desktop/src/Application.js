@@ -35,7 +35,7 @@
  * 
  * ```html 
  * @example({tab:2})
- * <custom-tag class='example' onclick='anotherTestIt('works');'>click on me</custom-tag>
+ * <custom-tag class='example' onclick="anotherTestIt('works');">click on me</custom-tag>
  * ```
  *
  * Simple example
