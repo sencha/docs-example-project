@@ -1,5 +1,11 @@
 /**
  * This is the HomeView class.
+ * 
+ * ```
+ * @example
+ * console.log("example works");
+ * ```
+ *
  */
 Ext.define('MyApp.view.home.HomeView',{
 	xtype: 'homeview',
