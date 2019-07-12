@@ -4,7 +4,7 @@
  * Example 1 - This is the first example. 
  * ```html 
  * @example({tab:1})
- * <custom-tag class='example' onclick='testIt('works');'>click on me</custom-tag>
+ * <custom-tag class='example' onclick="testIt('works');">click on me</custom-tag>
  * ```
  *
  * ```javascript 
