@@ -28,14 +28,14 @@
  * Example 2 - This is another example. 
  * ```javascript 
  * @example({tab:1, packages:['ext-web-components']})
- * function testItAgain(message) {
+ * function anotherTestIt(message) {
  *   alert(`example ${message}`); 	
  * }
  * ```
  * 
  * ```html 
  * @example({tab:2})
- * <custom-tag class='example' onclick="anotherTestIt('works');">click on me</custom-tag>
+ * <custom-tag class='example' onclick="anotherTestIt('works2');">click on me</custom-tag>
  * ```
  *
  * Simple example
