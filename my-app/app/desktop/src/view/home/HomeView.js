@@ -1,7 +1,7 @@
 /**
  * This is the HomeView class.
  * 
- * ```
+ * ```javascript
  * @example
  * console.log("example works");
  * ```
