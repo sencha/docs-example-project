@@ -1,9 +1,5 @@
 /**
- * @class Ext.Progress
- * @extend Ext.Gadget
- * @xtype progress
- * @xtype progressbarwidget
- * @mixin Ext.ProgressBase
+ * Testing formatting...
  *
  * A simple progress bar widget.
  *
