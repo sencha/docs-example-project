@@ -43,6 +43,8 @@
  * @example
  * console.log("simple example");
  * ```
+ * 
+ * Testing some other `line` is not converted. 
  */
 Ext.define('MyApp.Application', {
 	extend: 'Ext.app.Application',
