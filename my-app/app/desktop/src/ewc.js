@@ -2,10 +2,6 @@
  * @class Ext.Button
  * @extend Ext.Component
  * @xtype button
- * @angularComponent button
- * @webComponent ButtonComponent
- * @webComponentImport ext-button.component
- * @reactComonent Button
  * 
  * This class provides a push button with several presentation options. There are various
  * different styles of Button you can create by using the {@link #icon}, {@link #iconCls},
