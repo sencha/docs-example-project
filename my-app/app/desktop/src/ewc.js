@@ -24,7 +24,7 @@
  * ```
  *
  * ```javascript
- * @example({framework: 'ea'})
+ * @example({framework: 'ea', packages: ['ext-angular']})
  * import { Component } from '@angular/core'
  * declare var Ext: any;
  *
@@ -61,7 +61,7 @@
  * ```
  *
  * ```javascript
- * @example({framework: 'er' })
+ * @example({framework: 'er', packages: ['ext-react'] })
  * import React, { Component } from 'react';
  * import { ExtReact, Container, Button } from '@sencha/ext-react';
  * 
