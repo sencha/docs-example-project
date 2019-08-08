@@ -2,8 +2,10 @@
  * @class Ext.Button
  * @extend Ext.Component
  * @xtype button
+ * @angularComponent button
  * @webComponent ButtonComponent
- * @webComponentImport @sencha/ext-web-components/dist/ext-button.component
+ * @webComponentImport ext-button.component
+ * @reactComonent Button
  * 
  * This class provides a push button with several presentation options. There are various
  * different styles of Button you can create by using the {@link #icon}, {@link #iconCls},
@@ -13,8 +15,52 @@
  *
  * Here is a Button in it's simplest form:
  *
+ * ```javascript
+ * @example({framework: 'ext'})
+ * var button = Ext.create('Ext.Button', {
+ *   text: 'Button'
+ * });
+ * Ext.Viewport.add({ xtype: 'container', padding: 10, items: [button] });
+ * ```
+ *
+ * ```javascript
+ * @example({framework: 'er' })
+ * import React, { Component } from 'react';
+ * import { ExtReact, Container, Button } from '@sencha/ext-react';
+ * 
+ * export default class MyExample extends Component {
+ *
+ *   state = { message: null }
+ * 
+ *   render() {
+ *     return (
+ *       <ExtReact>
+ *         <Container padding="10">
+ *           <Button 
+ *              text="Say Hello" 
+ *              handler={this.sayHello}
+ *              ui="action raised" />
+ *           <Button 
+ *             text="Say Goodbye" 
+ *             handler={this.sayGoodbye} />
+ *           { this.state.message }
+ *           </Container>
+ *        </ExtReact>
+ *    )};
+ * 
+ *   sayHello = () => {
+ *     this.setState({ message: 'Hello world!' });  
+ *   }
+ * 
+ *   sayGoodbye = () => {
+ *     this.setState({ message: 'Goodbye cruel world.' });  
+ *   }
+ * 
+ * }  
+ * ```
+ *
  * ```HTML
- * @example({tab: 1})
+ * @example({framework: 'ewc', tab: 1})
  * <ext-container padding="10">
  *     <ext-button
  *         text="Say Hello" 
@@ -31,7 +77,7 @@
  * ```
  *
  * ```javascript
- * @example({tab: 2, packages: ['ext-web-components']})
+ * @example({framework: 'ewc', tab: 2, packages: ['ext-web-components']})
  * import '@sencha/ext-web-components/dist/ext-button.component';
  * import '@sencha/ext-web-components/dist/ext-container.component';
  *
