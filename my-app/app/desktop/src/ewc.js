@@ -24,12 +24,48 @@
  * ```
  *
  * ```javascript
+ * @example({framework: 'ea'})
+ * import { Component } from '@angular/core'
+ * declare var Ext: any;
+ *
+ * @Component({
+ *   selector: 'app-root-1',
+ *   styles: [``],
+ *   template: `
+ *   <container #item padding="10">
+ *     <button #item 
+ *       text="Say Hello" 
+ *       [handler]="this.sayHello"
+ *       ui="action raised">
+ *     </button>
+ *     <button  #item
+ *       text="Say Goodbye" 
+ *       [handler]="this.sayGoodbye">
+ *     </button>
+ *     <div #item>
+ *       {{ this.message }}
+ *     </div>
+ *   </container>
+ * })
+ * export class AppComponent {
+ *   message: string;
+ *
+ *   sayHello = () => {
+ *     this.message = 'Hello world!';
+ *   }
+ *        
+ *   sayGoodbye = () => {
+ *     this.message = 'Goodbye cruel world.';
+ *   }     
+ * }
+ * ```
+ *
+ * ```javascript
  * @example({framework: 'er' })
  * import React, { Component } from 'react';
  * import { ExtReact, Container, Button } from '@sencha/ext-react';
  * 
  * export default class MyExample extends Component {
- *
  *   state = { message: null }
  * 
  *   render() {
@@ -55,7 +91,6 @@
  *   sayGoodbye = () => {
  *     this.setState({ message: 'Goodbye cruel world.' });  
  *   }
- * 
  * }  
  * ```
  *
@@ -75,7 +110,6 @@
  *     <ext-container onready="button.resultContainerReady"></ext-container>
  * </ext-container>
  * ```
- *
  * ```javascript
  * @example({framework: 'ewc', tab: 2, packages: ['ext-web-components']})
  * import '@sencha/ext-web-components/dist/ext-button.component';
