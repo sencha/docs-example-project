@@ -24,11 +24,21 @@
  * ```
   * ```html
  * @example({framework: 'ext-web-components', packages:['ext-web-components'], tab: 1 })
- * // TODO ExtWebComponents example
+ * <my-button-component></my-button-component>
  * ```
  * ```javascript
  * @example({framework: 'ext-web-components', packages:['ext-web-components'], tab: 2 })
- * // TODO ExtWebComponents example
+ * import '@sencha/ext-web-components/dist/ext-button.component';
+ *
+ * class MyButtonComponent extends HTMLElement {
+ *    connectedCallback() {
+ *        this.innerHTML = `<ext-button text="Button" ui="action raised" />`;
+ *
+ *        var buttonEl = this.querySelector("ext-button");
+ *        buttonEl.addEventListener('tap', () => alert('click'));
+ *    }
+ * }
+ * window.customElements.define('my-button-component', MyButtonComponent);
  * ```
  *
  *
