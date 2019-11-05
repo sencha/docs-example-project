@@ -20,9 +20,40 @@
  * ```
  * ```javascript
  * @example({framework: 'ext-angular', packages:['ext-angular']})
- * // TODO ExtAngular example
+ * import { Component } from '@angular/core'
+ * declare var Ext: any;
+ *
+ * @Component({
+ * selector: 'app-root-1',
+ * styles: [`
+ * `],
+ * template: `
+ * <container #item padding="10">
+ *   <button #item 
+ *           text="Say Hello" 
+ *           [handler]="this.sayHello"
+ *           ui="action raised"></button>
+ *   <button #item
+ *           text="Say Goodbye" 
+ *           [handler]="this.sayGoodbye"></button>
+ *   <div #item>
+ *     {{ this.message }}
+ *   </div>
+ * </container>
+ * })
+ * export class AppComponent {
+ *   message: string;
+ *
+ *   sayHello = () => {
+ *     this.message = 'Hello world!';
+ *   }
+ *        
+ *   sayGoodbye = () => {
+ *     this.message = 'Goodbye cruel world.';
+ *   }           
+ * }
  * ```
-  * ```html
+ * ```html
  * @example({framework: 'ext-web-components', packages:['ext-web-components'], tab: 1 })
  * <my-button-component></my-button-component>
  * ```
