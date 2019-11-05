@@ -16,7 +16,36 @@
  * ```
  * ```javascript
  * @example({framework: 'ext-react', packages:['ext-react']})
- * // TODO ExtReact button example
+ * import React, { Component } from 'react';
+ * import { ExtReact, Container, Button } from '@sencha/ext-react';
+ * 
+ * export default class MyExample extends Component {
+ *   state = { message: null }
+ * 
+ *   render() {
+ *     return (
+ *       <ExtReact>
+ *         <Container padding="10">
+ *           <Button 
+ *             text="Say Hello" 
+ *             handler={this.sayHello}
+ *             ui="action raised" />
+ *           <Button 
+ *             text="Say Goodbye" 
+ *             handler={this.sayGoodbye} />
+ *           { this.state.message }
+ *         </Container>
+ *        </ExtReact>
+ *    )}
+ * 
+ *   sayHello = () => {
+ *     this.setState({ message: 'Hello world!' });  
+ *   }
+ * 
+ *   sayGoodbye = () => {
+ *     this.setState({ message: 'Goodbye cruel world.' });  
+ *   }
+ * }
  * ```
  * ```javascript
  * @example({framework: 'ext-angular', packages:['ext-angular']})
