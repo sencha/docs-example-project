@@ -8,7 +8,7 @@
  * Here is a Button in it's simplest form:
  *
  * ```javascript
- * @example({ framework: 'extjs' })
+ * @example({ framework: 'myproduct' })
  * var button = Ext.create('Ext.Button', {
  *   text: 'Button'
  * });
